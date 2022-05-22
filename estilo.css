@@ -1,0 +1,83 @@
+body{
+    background: rgba(0, 0, 0, 0.877);
+    font: normal 15pt Arial;
+    color: white;
+}
+
+header{
+    text-align: center;
+}
+
+section{
+    background-image: url(pexels-alina-lomilova-5218232.jpg);
+    background-repeat: none;
+    background-size: 100%;
+    width: 80%;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.932);
+}
+
+.principal{
+    background-color: rgba(0, 0, 0, 0.397);
+    padding: 20px;
+    margin: none;
+}
+
+.principal, section{
+    border-radius: 30px;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div2{
+    display: flex;
+    justify-content: end;
+}
+
+input{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: white;
+    border: none;
+    height: 45px
+}
+
+#entrada, #add{
+    justify-content: space-between;
+}
+
+#entrada{
+    width: 70%;
+    padding-left: 10px;
+}
+
+#limpar, #add{
+    width: 25%;
+}
+
+#limpar, #add, #entrada, ul{
+    border-radius: 10px;
+    background: rgba(132, 218, 210, 0.226);
+    backdrop-filter: blur(10px);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.493);
+    border-right: 1px solid rgba(255, 255, 255, 0.493);
+    border-top: 1px solid rgba(0, 0, 0, 0.493);
+    border-left: 1px solid rgba(0, 0, 0, 0.493);
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-style: italic;
+    font-size: 15px;
+}
+
+ul#lista{
+    list-style-type: none;
+    min-height: 80px;
+    margin-top: 20px;
+    padding: 40px;
+}
